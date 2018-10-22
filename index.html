@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  background-image:linear-gradient(rgb(180,180,180),rgb(20,20,20));
+  background-repeat:repeat-y;
+  background-attachment:fixed;
+  color:rgb(190,190,190);
+  padding:2px;
+}
+p.div{
+  position:relative;
+  border:0px solid rgba(255,255,255,0);
+}
+.header{
+  text-align:center;
+  color:rgb(30,30,30);
+}
+table{
+  color:rgb(190,190,190);
+  font-size:16.5px;
+  border-collapse: collapse;
+  width:100%;
+  position:relative;
+  text-align:center;
+}
+td{
+  border:1px solid rgb(180,180,180);
+}
+th{
+}
+.no{
+  border:none;
+  font-weight:bold;
+  padding-right:10px;
+}
+th{
+  font-weight:bold;
+}
+.div{
+  border:2px solid rgb(20,20,20,.1);
+}
+.div0{
+  background-color:rgba(180,180,180,.2);
+  width:85%;
+  padding-right:10px;
+  padding-bottom:10px;
+  padding-top:0px;
+  margin-bottom:10px;
+  position:relative;
+}
+.div1{
+  background-color:rgba(180,180,180,.2);
+  width:55%;
+  padding-right:10px;
+  padding-bottom:10px;
+  padding-top:10px;
+  margin-bottom:10px;
+  position:relative;
+}
+.div2{
+  text-align:justify;
+  background-color:rgba(180,180,180,.2);
+  width:70%;
+  padding-left:10px;
+  padding-right:10px;
+  padding:10px;
+  margin-bottom:10px;
+  position:relative;
+  text-justify:inter-word;
+}
+.div3{
+  text-align:justify;
+  background-color:rgba(180,180,180,.2);
+  width:40%;
+  padding:10px;
+  margin-bottom:10px;
+  position:relative;
+  text-justify:inter-word;
+}
+.div4{
+  background-color:rgba(180,180,180,.2);
+  width:78%;
+  padding-right:10px;
+  padding-bottom:10px;
+  padding-top:10px;
+  margin-bottom:10px;
+  position:relative;
+}
+.div5{
+  background-color:rgba(180,180,180,.2);
+  width:83%;
+  padding-right:10px;
+  padding-bottom:10px;
+  padding-top:10px;
+  margin-bottom:10px;
+  position:relative;
+}
+.theader{
+  text-align:center;
+  font-size:25px;
+  margin:0px;
+  padding:0px;
+  padding-bottom:10px;
+  padding-top:10px;
+}
+.image{
+  width:150px;
+  float:right;
+  position:relative;
+}
+.info1{
+  margin:auto 15% auto;
+  margin-bottom:10px;
+}
+.info2{
+  margin:auto 10% auto;
+  margin-bottom:10px;
+}
+.move{
+  margin-left:10px;
+}
+</style>
+</head>
+<body>
+  <h1 class="header">
+    U1 Project B1
+  </h1>
+  <h2 class="header">
+    HTML and CSS by Tyler Geist, JS by Jackson Oliver
+  </h2>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="div2 div" id="paragraph">
+  <h3 class="theader">The paragraph below states the goal of the experiment:</h3>
+  <p class="div">
+    The goal of the experiment was to design a procedure to seperate a mixture of salt, sand, iron, and water while preserving the most amount of each component. The desgin process started with us planning out how could seperate the mixture into two seperate mixtures with two components each. We decided the best way to do this was to pass it through a coffee filter. The filter would let the now disolved salt and water through while keeping the sand and iron from going through. Seperating the iron and sand would be easy enough with a magnet but the saltwater would a lot harder to . The salt being disolved into the water made it so we couldn't just use a sieve or a magnet to filter it out. We finally discovered that boiling the water would cause it to evaporate leaving the salt alone. We then collected the water as it condensed onto plastic wrap and trickled down into a container.
+  </p>
+</div>
+<br><br>
+<div id="msdstable" class="div0 div">
+  <h3 class=theader>MSDS table</h3>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Eyes        </th>
+          <th>Inhalation  </th>
+          <th>Skin contact</th>
+          <th>Swallowing  </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="no">Fe      </td>
+          <td>Wash with water for 20 minutes. Then get medical attention</td>
+          <td>Do not inhale dust. Get to an area with clean air</td>
+          <td>Wash with soap and water     </td>
+          <td>Do not induce vomiting. Get medical attention     </td>
+        </tr>
+        <tr>
+          <td class="no">SiO<sub>2</sub>    </td>
+          <td>Wash with water for 15 minutes   </td>
+          <td>Do not inhale. If you do, go to an area with clean air</td>
+          <td>Wash with soap and water     </td>
+          <td>Do not induce vomiting. Get medical attention       </td>
+        </tr>
+        <tr>
+          <td class="no">NaCl    </td>
+          <td>Wash with water for 15 minutes  </td>
+          <td>Get to an area with clean air</td>
+          <td>Wash with soap and water for 10 mins    </td>
+          <td>Do not induce vomiting. Get medical attention    </td>
+        </tr>
+        <tr>
+          <td class="no">H<sub>2</sub>O    </td>
+          <td>No precautions are needed</td>
+          <td>No precautions are needed</td>
+          <td>No precautions are needed</td>
+          <td>No precautions are needed</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+<div class="div3 div" id="matlist">
+  <!--<img class="image" src="https://images-na.ssl-images-amazon.com/images/I/81IYtNz5ElL._SX425_.jpg">-->
+  <h4>
+    Materials needed:
+  </h4>
+  <ul>
+    <li>
+      1x popsicle stick (or other stirring/scraping tool)
+    </li>
+    <li>
+      3x coffee filters
+    </li>
+    <li>
+      1x beaker (to transfer/catch saltwater)
+    </li>
+    <li>
+      1x magnet with a rating of 100 to 150 surface gauss
+    </li>
+    <li>
+      2x flasks
+    </li>
+    <li>
+      1x heat source
+    </li>
+    <li>
+      1x chassis (stand to hold flask with enough space to add heat to flask)
+    </li>
+    <li>
+      1x soft tubing apx. 1 - 1½ ft (must fit around flasks)
+    </li>
+  </ul>
+</div>
+<div id="orgintable" class="div1 div">
+  <h3 class=theader>Weight of substances</h3>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Weight(grams)      </th>
+          <th>percent composition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="no">Fe      </td>
+          <td>0g</td>
+          <td>0%</td>
+        </tr>
+        <tr>
+          <td class="no">SiO<sub>2</sub>    </td>
+          <td>0g</td>
+          <td>0%</td>
+        </tr>
+        <tr>
+          <td class="no">NaCl    </td>
+          <td>0g</td>
+          <td>0%</td>
+        </tr>
+        <tr>
+          <td class="no">H<sub>2</sub>O    </td>
+          <td>0g</td>
+          <td>0%</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+<div id="aftertable" class="div1 div">
+  <h3 class=theader>Weight of substances after seperation process</h3>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Weight(grams)      </th>
+          <th>percent composition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="no">Fe      </td>
+          <td>0g</td>
+          <td>0%</td>
+        </tr>
+        <tr>
+          <td class="no">SiO<sub>2</sub>    </td>
+          <td>0g</td>
+          <td>0%</td>
+        </tr>
+        <tr>
+          <td class="no">NaCl    </td>
+          <td>0g</td>
+          <td>0%</td>
+        </tr>
+        <tr>
+          <td class="no">H<sub>2</sub>O    </td>
+          <td>0g</td>
+          <td>0%</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+<div id="finaltable" class="div4 div">
+  <h3 class=theader>Weight of substances after seperation process</h3>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Weight(grams) [before]      </th>
+          <th>Weight(grams) [after] </th>
+          <th>Weight differnece (grams)  </th>
+          <th>Percent composition [before]</th>
+          <th>Percent composition [after] </th>
+          <th>Percent composition difference</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="no">Fe      </td>
+          <td>0g</td>
+          <td>0g</td>
+          <td>0g</td>
+          <td>0%</td>
+          <td>0%</td>
+          <td>0%</td>
+        </tr>
+        <tr>
+          <td class="no">SiO<sub>2</sub>    </td>
+          <td>0g</td>
+          <td>0g</td>
+          <td>0g</td>
+          <td>0%</td>
+          <td>0%</td>
+          <td>0%</td>
+        </tr>
+        <tr>
+          <td class="no">NaCl    </td>
+          <td>0g</td>
+          <td>0g</td>
+          <td>0g</td>
+          <td>0%</td>
+          <td>0%</td>
+          <td>0%</td>
+        </tr>
+        <tr>
+          <td class="no">H<sub>2</sub>O    </td>
+          <td>0g</td>
+          <td>0g</td>
+          <td>0g</td>
+          <td>0%</td>
+          <td>0%</td>
+          <td>0%</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+<div class="div5 div" id="proceed">
+  <h3 class="move"><u>Procedure:</u></h3>
+  <h4 class="move"> Water Separation Setup-</h4>
+  <ol>
+    <li>
+      place a metal chassis under a flask (flask A) and place another flask next to it on base elevation (flask B).
+    </li>
+    <li>
+      connect one end of the tubing to flask B
+    </li>
+  </ol>
+  <h4 class="move">Seperating-</h4>
+  <ol>
+    <li>
+     pour the entire solution through a coffee filter into the beaker. You now have a mixture (in coffee filter) and a solution (in beaker).
+    </li>
+    <li>
+      run a magnet through the mixture of solids to separate the iron from the sand
+    </li>
+    <li>
+      scrap off the iron shavings into another coffee filter as a container
+    </li>
+    <li>
+      take the salt and water solution and pour it into flask A and put the other end of the tubing on flask A, completing the connection
+    </li>
+    <li>
+      add enough heat to boil or almost boil the water and wait until all the water has been separated from the salt and the water has condensed and dropped into flask B
+    </li>
+    <li>
+      remove the tube connecting the flasks and pour the salt into a coffee filter (you may need to scrap it off the flask with a tool)
+    </li>
+    <li>
+      you now have 3 coffee filters with solids in them and flask B has water. Weigh and get results
+    </li>
+  </ol>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+  <script src=util.js></script>
+  <script src=app.js></script>
+</html>
